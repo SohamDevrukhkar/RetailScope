@@ -1,0 +1,7 @@
+pyspark==3.5.3
+streamlit==1.40.2
+plotly==5.24.1
+pandas==2.2.3
+pyarrow==18.0.0
+python-dotenv==1.0.1
+numpy==2.1.3

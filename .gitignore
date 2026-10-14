@@ -1,0 +1,34 @@
+# Raw and processed data (never commit big data files)
+data/raw/
+data/processed/
+archive/
+
+# Python & testing
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Spark
+spark-warehouse/
+derby.log
+metastore_db/
+
+# Environment secrets
+.env
+
+# Streamlit
+.streamlit/*
+!.streamlit/config.toml
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
